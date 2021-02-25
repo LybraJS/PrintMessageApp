@@ -11,16 +11,17 @@
                 <div class='message-box-inner'>
                     <h2>Enter a Message</h2>
                     <div class='input-box'>
-                        <input class='input' type='text' placeholder='Your Message'/>
-                        <button class='btn btn-primary'>Submit</button>
+                        <input maxlength="18" value='' id='input' class='input' type='text' placeholder='Your Message'/>
+                        <button class='btn btn-primary' onclick="submit()">Submit</button>
                     </div>
                     <h4 id='message-delivered'>Message Status</h4>
 
                 </div>
                 <div class="message-output-box">
-                    <h4 id='message-output'>Message Output</h4>
+                    <h5 id='message-output'>Message Output</h5>
                 </div>
             </div>
         </div>
+        <script src='script.js'></script>
     </body>
 </html>
